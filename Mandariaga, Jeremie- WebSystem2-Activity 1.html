@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<header>CSS Flexbox Gallery</header>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS FLEXBOX GALLERY</title>
+
+
+	<style>
+    * {
+    box-sizing: border-box  ;
+    background: white;
+    text-align: center;
+}
+
+.item
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    display: inline-grid;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.container::after {
+    width: 350px;
+}
+header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+	font-size: 30px;
+	margin: 10px;
+}
+p{
+	background-color: black;
+	text-align: center;
+	color: white;
+	height: 50px;
+	font-size: 40px;
+}
+button{
+	cursor: pointer;
+	position: relative;
+	left: 4.3%;
+	bottom: -7px;
+	background-color: blue;
+	color: white;
+}
+
+</style>
+</head>
+<body class="photo">
+
+	<div class="container" class="desc">
+
+		<a href="https://images.unsplash.com/photo-1703767574991-a35408a264ad?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1703767574991-a35408a264ad?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1703762855767-d3a8d554b72e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1703762855767-d3a8d554b72e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1535392432937-a27c36ec07b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1535392432937-a27c36ec07b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1704053339907-f2b3bfc2d349?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1704053339907-f2b3bfc2d349?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+	</div>
+
+	<div class="container">
+		<a href="https://images.unsplash.com/photo-1704026437274-fe4fa8af1784?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1704026437274-fe4fa8af1784?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1703868674842-f7a2e35b474b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1703868674842-f7a2e35b474b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1704108889314-48e5fc7b5790?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1704108889314-48e5fc7b5790?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1705849911044-5ea61913b445?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1705849911044-5ea61913b445?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+	</div>
+
+	<div class="container">
+		<a href="https://images.unsplash.com/photo-1630138994765-98fa6a9e633a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1630138994765-98fa6a9e633a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1630138996328-5db19df173c5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1630138996328-5db19df173c5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1706211307566-8be99af84386?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1706211307566-8be99af84386?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1705427738207-fd66f611691b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1705427738207-fd66f611691b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+	</div>
+
+	<div class="container">
+		<a href="https://images.unsplash.com/photo-1479186479563-2af7090284c6?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1479186479563-2af7090284c6?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1503416997304-7f8bf166c121?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1503416997304-7f8bf166c121?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1514897575457-c4db467cf78e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1514897575457-c4db467cf78e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1519895710315-a04b64f04a36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1519895710315-a04b64f04a36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+	</div>
+
+	<div class="container">
+		<a href="https://images.unsplash.com/photo-1502318217862-aa4e294ba657?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1502318217862-aa4e294ba657?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1460131548611-36aac9b6a901?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1460131548611-36aac9b6a901?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+
+		<a href="https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><button>Click Me!</button></a><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Click Me">
+	</div>
+	<footer>
+		<p>CSS Flexbox Gallery</p>
+	</footer>
+</body>
+</html>
